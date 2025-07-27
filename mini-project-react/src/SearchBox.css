@@ -1,0 +1,13 @@
+.SearchBox{
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+    left: 50%;
+    place-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color:yellow
+}

@@ -1,0 +1,35 @@
+.InfoBox {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .weather-card {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .weather-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .MuiCardMedia-root {
+    object-fit: cover;
+  }
+  
+  .MuiCardContent-root {
+    font-size: 1.1rem;
+  }
+  
+  .weather-icon {
+    width: 80px;
+    margin: auto;
+  }
+  
